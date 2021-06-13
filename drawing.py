@@ -7,7 +7,7 @@ def draw_obstacles(canvas_array, scr,canvas_width,canvas_height, difficulty_leve
     start_X_list = []   #Random obstacle point list
 
     #Generate number of obstacles based on difficulty level
-    num_obstacle = int(canvas_width * DIFFICULTY_CONST * difficulty_level)
+    num_obstacle = int(canvas_width * DIFFICULTY_CONST * int(difficulty_level))
     
     #Generate obstacle postion
     for i in range(num_obstacle):
